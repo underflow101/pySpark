@@ -3,9 +3,6 @@
 
 from pyspark import SparkContext
 import time
-import matplotlib.pyplot as plt
-import numpy as np 
-import pandas as pd
 
 if sc is None: 
     sc = SparkContext(master="local", appName="first app")
