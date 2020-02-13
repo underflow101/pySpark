@@ -3,7 +3,6 @@
 
 # search error from log files
 
-import pyspark
 from pyspark import SparkContext
 
 if sc is None: 
