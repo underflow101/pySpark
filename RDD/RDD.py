@@ -1,7 +1,7 @@
 # RDD.py
 # Resilient Distributed Dataset
 
-# search error from log files
+# Search error from log files
 
 from pyspark import SparkContext
 
