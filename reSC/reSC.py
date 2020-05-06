@@ -5,7 +5,6 @@ from pyspark import SparkContext, SparkConf, RDD
 
 conf = SparkConf().setAppName('Word Counts')
 sc = SparkContext(conf = conf)
-
 doc = sc.textFile("file:///opt/spark/data/shakespeare.txt")
 
 flattened = doc.filter(lambda line: len(line) > 0).flatMap(lambda line: re.split('\W+', line))
