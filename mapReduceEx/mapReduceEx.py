@@ -1,5 +1,5 @@
 # PySpark Programming
-# Map Reduce Example
+# MapReduce Example
 
 from pyspark import SparkContext
 import time
