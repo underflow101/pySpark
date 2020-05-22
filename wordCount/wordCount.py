@@ -30,7 +30,6 @@ wordCounts = sc.textFile("file://" + inputPath) \
 
 wordCounts.saveAsTextFile("file://" + outputDir)
 topFiveWords = wordCounts.take(5)
-
 justWords = list()
 
 for wordSandCounts in topFiveWords:
